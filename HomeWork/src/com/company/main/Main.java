@@ -1,5 +1,9 @@
 package com.company.main;
 
+import com.company.main.Old.Dictionary;
+import com.company.main.Old.SortArray;
+import com.company.main.Old.SquareMatrix;
+
 public class Main {
 
     private static String[] surname = {"Leblanc", "Sartorius", "Rockelle", "Mackenzie", "Grande", "Bratayley",
@@ -13,7 +17,35 @@ public class Main {
     private static int n;
 
     public static void main(String[] args) {
+        MapTreasures mapTreasures = new MapTreasures();
+        mapTreasures.computeCoordinates();
+        System.out.println("Координаты:  " + mapTreasures.getCoordinates());
+        System.out.println();
 
+        dictionary();                            //old home work
+        sMatrix();
+        sortArray();
+    }
+
+    public static void sMatrix() {
+        System.out.print("\nSquareMatrix");
+        SquareMatrix squareMatrix = new SquareMatrix();
+        squareMatrix.initMas();
+        squareMatrix.printMas();
+        squareMatrix.transformationMas();
+        squareMatrix.printMas();
+    }
+
+    public static void sortArray() {
+        System.out.print("\nSortArray");
+        SortArray sortArray = new SortArray();
+        sortArray.initMas();
+        sortArray.printMas();
+        sortArray.sortMas();
+        sortArray.printMas();
+    }
+
+    public static void dictionary() {
         Dictionary dictionaryOne = new Dictionary();
         dictionaryOne.initDictionary(surname, name);
 

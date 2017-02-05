@@ -19,20 +19,14 @@ public class SortArray extends SquareMatrix {
 
     }
 
-    public <T extends Number> void printMas(T[][] array, int... n) {
-        if (n.length == 1) row = column = n[0];
-        else if (n.length == 2) {
-            row = n[0];
-            column = n[1];
-        } else return;
-
+    public void printMas() {
         for (int i = 0; i < row; i++) {
             System.out.println();
             for (int j = 0; j < column; j++) {
-                //if () System.out.print(array[i][j] + "\t");
-                System.out.printf("%.2f\t", array[i][j]);
+                System.out.printf("%d\t", mas[i][j]);
             }
         }
+        System.out.println();
     }
 
     public void sortMas() {
@@ -48,6 +42,5 @@ public class SortArray extends SquareMatrix {
                 }
             }
         }
-        System.out.println('\n');
     }
 }
