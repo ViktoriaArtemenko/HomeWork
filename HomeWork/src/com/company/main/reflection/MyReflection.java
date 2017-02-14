@@ -1,9 +1,9 @@
 package com.company.main.reflection;
 
 import com.company.main.annotation.MyAnoMethod;
-import com.company.main.annotation.MyaAnoClass;
+import com.company.main.annotation.MyAnoClass;
 
-@MyaAnoClass
+@MyAnoClass
 public class MyReflection {
 
     @MyAnoMethod
