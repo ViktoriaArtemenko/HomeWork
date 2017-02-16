@@ -1,4 +1,4 @@
-package com.company.main;
+package com.company.main.reflection;
 
 import com.company.main.annotation.MyAnoMethod;
 import com.company.main.annotation.MyAnoClass;

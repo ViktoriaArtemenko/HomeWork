@@ -3,7 +3,11 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true">
-        <processor name="com.company.main.HandlerAnnotation" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="com.company.main.reflection.HandlerAnnotation" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/out/artifacts/HomeWork_jar/HomeWork.jar" />
+        </processorPath>
       </profile>
     </annotationProcessing>
   </component>
