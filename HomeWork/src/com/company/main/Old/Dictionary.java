@@ -1,4 +1,4 @@
-package com.company.main.Old;
+package com.company.main.old;
 
 import java.util.*;
 

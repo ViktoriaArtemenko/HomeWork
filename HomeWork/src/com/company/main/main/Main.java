@@ -1,63 +1,62 @@
 package com.company.main.main;
 
-import com.company.main.constants.Constants;
-import com.company.main.task.TaskOne;
-import com.company.main.task.TaskThree;
-import com.company.main.task.TaskTwo;
+import com.company.main.generic.ChangePositionClass;
+import com.company.main.generic.ConversionClass;
+import com.company.main.generic.LibraryClassWithGeneric;
+import com.company.main.generic.MaxElementClass;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
-    public static ArrayList<String> arrayListStr1 = new ArrayList();
-    public static ArrayList<String> arrayListStr2 = new ArrayList();
-
-    public static ArrayList<Integer> arrayListInt1 = new ArrayList();
-    public static ArrayList<Integer> arrayListInt2 = new ArrayList();
+    private static String[] masString = {"cat", "dog", "panda", "bird"};
+    private static Integer[] masInteger = {11, 45, 10, 9, 34, 65, 33, 75};
+    private static String[] masString2;
+    private static ArrayList<String> listString = new ArrayList();
+    private static ArrayList<Integer> listInteger = new ArrayList();
 
     public static void main(String[] args) {
-        arrayListStr1.add("str1");
-        arrayListStr1.add("str2");
-        arrayListStr1.add("str3");
+        ChangePositionClass<String> changeStr = new ChangePositionClass();
+        ChangePositionClass<Integer> changeInt = new ChangePositionClass();
 
-        copy(arrayListStr1, arrayListStr2);
+        changeStr.changePositionOfArray(0, 3, masString);
+        changeInt.changePositionOfArray(1, 2, masInteger);
 
-        System.out.println(arrayListStr1);
-        System.out.println(arrayListStr2);
+        printArray(masString);
+        System.out.println();
+        printArray(masInteger);
+        System.out.println("\n**************************");
 
+        //**************************
+
+        MaxElementClass<Integer> maxElement = new MaxElementClass();
+        Collections.addAll(listInteger, masInteger);
+        maxElement.findMaxElement(0, 4, listInteger);
+
+        //**************************
+
+        System.out.println("\n**************************");
+        ConversionClass<String> conversionClass = new ConversionClass();
+
+        Collections.addAll(listString, masString);
+        masString2 = new String[listString.size()];
+
+        conversionClass.conversionMethod(listString, masString2, false);
+
+        printArray(masString2);
         System.out.println();
 
-        arrayListInt1.add(1);
-        arrayListInt1.add(2);
-        arrayListInt1.add(3);
+        //**************************
 
-        copy(arrayListInt1, arrayListInt2);
-
-        System.out.println(arrayListInt1);
-        System.out.println(arrayListInt2);
-
-        //task();
+        System.out.println("\n**************************");
+        LibraryClassWithGeneric<String> library = new LibraryClassWithGeneric("Bulgakov");
+        library.printElement(library, library.getBook());
     }
 
-    public static <T>void copy(List<T> fromArrayList, List<T> toArrayList) {
-        ListIterator<T> listIterator = fromArrayList.listIterator();
-        while(listIterator.hasNext()){
-            toArrayList.add(listIterator.next());
+    public static <T> void printArray(T[] mas) {
+        for (int i = 0; i < mas.length; i++) {
+            System.out.print("[" + mas[i] + "], ");
         }
-    }
-
-    public static void task() {
-        System.out.println();
-        TaskOne taskOne = new TaskOne();
-        taskOne.method(Constants.STR_1);
-        System.out.println();
-
-        TaskTwo taskTwo = new TaskTwo();
-        taskTwo.method(Constants.STR_2);
-        System.out.println(taskTwo.getArrayList());
-
-        TaskThree taskThree = new TaskThree();
-        System.out.println();
-        taskThree.method(Constants.WORD);
     }
 }
