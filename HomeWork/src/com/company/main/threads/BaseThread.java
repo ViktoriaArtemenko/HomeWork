@@ -1,4 +1,4 @@
-package com.company.main.main;
+package com.company.main.threads;
 
 public class BaseThread extends Thread{
 

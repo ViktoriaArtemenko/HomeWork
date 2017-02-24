@@ -1,4 +1,4 @@
-package com.company.main.main;
+package com.company.main.threads;
 
 import java.util.Calendar;
 import java.util.Random;

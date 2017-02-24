@@ -1,10 +1,12 @@
-package com.company.main.main;
+package com.company.main.threads;
+
+import com.company.main.threads.BaseClass;
 
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class ClassMaxDivider extends BaseClass{
+public class ClassMaxDivider extends BaseClass {
 
     private int n = 10000;
     private int optimalNumbersInOneThread = 1000;

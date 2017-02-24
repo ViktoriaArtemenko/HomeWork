@@ -1,8 +1,10 @@
-package com.company.main.main;
+package com.company.main.threads;
+
+import com.company.main.threads.BaseClass;
 
 import java.util.TreeSet;
 
-public class ClassMaxElement extends BaseClass{
+public class ClassMaxElement extends BaseClass {
 
     private int optimalNumbersInOneThread = 10;
     private int nRandom = 36;

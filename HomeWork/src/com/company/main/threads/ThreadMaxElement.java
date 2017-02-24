@@ -1,4 +1,7 @@
-package com.company.main.main;
+package com.company.main.threads;
+
+import com.company.main.threads.BaseThread;
+import com.company.main.threads.ClassMaxElement;
 
 public class ThreadMaxElement extends BaseThread {
 
