@@ -42,7 +42,7 @@ public class BaseClass {
         System.out.println();
     }
 
-    protected void separationResourcesBetweenThreads(int quantityOfThreads, int n, int... mas) {
+    protected void separationResourcesBetweenThreads(int quantityOfThreads, int n, int[] mas) {
         nOneThread = n / quantityOfThreads;
         int start = 0;
         int end = nOneThread;
@@ -60,7 +60,10 @@ public class BaseClass {
                 end = (nOneThread * (i + 2));
             }
             if (mas != null) new ThreadMaxElement(start, end, mas, locker);
-            if (mas == null) new ThreadMaxDivider(start, end, locker);
+            if (mas == null) {
+                new ThreadMaxDivider(start, end, locker);
+
+            }
         }
     }
 

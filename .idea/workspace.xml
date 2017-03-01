@@ -7,14 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb496036-b25e-4de9-9bbc-6fbffd9d9e17" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/BaseClass.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/BaseThread.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ClassMaxDivider.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxDivider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ClassMaxElement.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ThreadMaxDivider.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxDivider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ThreadMaxElement.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Display.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Doctor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Human.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Room.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Visitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseClass.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxDivider.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxDivider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxDivider.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxDivider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxElement.java" afterPath="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxElement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +32,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,19 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/annotation/MyAnoHomeWork.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/Reflection.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/annotation/MyAnoMethod.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/MyReflection.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/annotation/MyaAnoClass.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/ReflectionOne.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/TaskOne.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/TaskThree.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/CheckAnnotation.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/Main.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/reflection/MyReflection.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/HandlerAnnotation.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/constant/Constants.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/constants/Constants.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/generic/HomeWork.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/generic/Stats.java" />
@@ -98,9 +101,22 @@
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ClassMaxElement.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ThreadMaxElement.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/BaseClass.java" />
-        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ClassMaxDivider.java" />
         <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/ThreadMaxDivider.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxElement.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseClass.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxElement.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxDivider.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxDivider.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Human.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Visitor.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Doctor.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/RoomThree.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/RoomOne.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Room.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Display.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/RoomTwo.java" />
+        <option value="$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java" />
       </list>
     </option>
   </component>
@@ -132,20 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,28 +191,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -236,19 +216,34 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/NewRepositorij" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -697,6 +692,12 @@
       <workItem from="1487706979162" duration="87000" />
       <workItem from="1487861609526" duration="47927000" />
       <workItem from="1487933915047" duration="216000" />
+      <workItem from="1487970959585" duration="1513000" />
+      <workItem from="1487992703568" duration="1418000" />
+      <workItem from="1488169554778" duration="406000" />
+      <workItem from="1488282177370" duration="3057000" />
+      <workItem from="1488296793888" duration="9333000" />
+      <workItem from="1488319763067" duration="11649000" />
     </task>
     <task id="LOCAL-00001" summary="cycle">
       <created>1485327497554</created>
@@ -709,7 +710,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206660000" />
+    <option name="totallyTimeSpent" value="234036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -725,12 +726,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36006826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3105802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35098335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3850227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -771,7 +772,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36006826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34568834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37897125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -798,21 +799,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/cycle/Tricycle.java" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/home/RandomNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/Engine.java" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/tank/Tank.java" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/singleton/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/home/FibonacciNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/cycle/Unicycle.java" />
     <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/cycle/Bicycle.java" />
     <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/cycle/Tricycle.java" />
     <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/cycle/Cycle.java" />
@@ -976,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,25 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="46" selection-end-column="44" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1066,30 +1029,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxDivider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxDivider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1098,9 +1059,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ThreadMaxDivider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="371">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/RoomThree.java" />
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/RoomOne.java" />
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/threads/ClassMaxElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/RoomTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/src/com/company/main/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

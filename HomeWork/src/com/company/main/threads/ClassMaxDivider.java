@@ -1,7 +1,5 @@
 package com.company.main.threads;
 
-import com.company.main.threads.BaseClass;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.ListIterator;

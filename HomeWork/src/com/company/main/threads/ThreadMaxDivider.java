@@ -1,8 +1,5 @@
 package com.company.main.threads;
 
-import com.company.main.threads.BaseThread;
-import com.company.main.threads.ClassMaxDivider;
-
 import java.util.LinkedList;
 
 public class ThreadMaxDivider extends BaseThread {
