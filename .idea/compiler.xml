@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
     <annotationProcessing>
-      <profile default="true" name="Default">
+      <profile default="true" name="Default" enabled="false">
         <outputRelativeToContentRoot value="true" />
         <processor name="com.company.main.reflection.HandlerAnnotation" />
         <processorPath useClasspath="false">

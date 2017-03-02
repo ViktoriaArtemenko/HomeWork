@@ -10,6 +10,7 @@ public class Main {
     private static Fighter fighter;
     private static Arena arena;
     private static LinkedList<Fighter> linkedList = new LinkedList();
+    private static int count;
 
     public static void main(String[] args) {
         System.out.println("Start");
@@ -27,19 +28,26 @@ public class Main {
 
     public static void run() {
         synchronized (arena) {
+            boolean flag = true;
+            while (flag)
+                count = 0;
             for (int i = 0; i < linkedList.size(); i++) {
                 if (linkedList.get(i).getEndurance() <= 0) continue;
                 for (int j = 0; j < linkedList.size(); j++) {
                     if (i == j || linkedList.get(j).getEndurance() <= 0) continue;
                     try {
-                        arena.wait(500);
-                        arena.wait(500);
+                        arena.wait(1000);
+                        arena.wait(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                     arena.battle(linkedList.get(i), linkedList.get(j));
                     arena.notifyDisplay();
                 }
+                if (linkedList.get(i).getEndurance() > 0) {
+                    count++;
+                }
+                if (count == 1) flag = false;
             }
         }
     }
