@@ -1,4 +1,4 @@
-package com.company.main;
+package com.company.main.threads2;
 
 import java.util.Observable;
 
@@ -36,5 +36,4 @@ public class Room extends Observable {
     public void incVisitorCount(int newCount) {
         this.visitorCount += newCount;
     }
-
 }

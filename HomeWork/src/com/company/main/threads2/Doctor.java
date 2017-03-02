@@ -1,10 +1,10 @@
-package com.company.main;
+package com.company.main.threads2;
 
-public class Visitor extends Human {
+public class Doctor extends Human {
 
     private Room room;
 
-    public Visitor(Room room) {
+    public Doctor(Room room) {
         super(1000);
         this.room = room;
     }
@@ -15,7 +15,7 @@ public class Visitor extends Human {
             while (room.getDoctorCount() > 0 || room.getVisitorCount() >= 4) {
                 room.wait();
             }
-            room.incVisitorCount(1);
+            room.incDoctorCount(1);
             room.notifyDisplay();
         }
     }
@@ -23,9 +23,10 @@ public class Visitor extends Human {
     @Override
     public void exit() {
         synchronized (room) {
-            room.incVisitorCount(-1);
+            room.incDoctorCount(-1);
             room.notify();
             room.notifyDisplay();
         }
     }
+
 }

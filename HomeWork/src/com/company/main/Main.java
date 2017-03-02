@@ -1,49 +1,62 @@
 package com.company.main;
 
-import java.util.ArrayList;
-import java.util.ListIterator;
+import java.util.LinkedList;
 import java.util.Random;
 
 public class Main {
 
-    private static final double PROBABILITY_DOCTOR = 0.2;
-    private static final double PROBABILITY_VISITOR = 0.5;
-    private static final int QUANTITY_OF_ROOMS = 4;
-    private static Room room;
+    private static final int QUANTITY_OF_FIGHTERS = 100;
+    private static Random random = new Random();
+    private static Fighter fighter;
+    private static Arena arena;
+    private static LinkedList<Fighter> linkedList = new LinkedList();
 
-    private static ArrayList<Room> arrayListOfRooms = new ArrayList();
-
-    public static void main(String[] args) throws InterruptedException {
-
+    public static void main(String[] args) {
         System.out.println("Start");
-        Random r = new Random();
 
-        for (int i = 1; i <= QUANTITY_OF_ROOMS; i++) {
-            room = new Room(i);
-            new Display(room);
-            arrayListOfRooms.add(room);
+        arena = new Arena();
+        new Display(arena);
+
+        for (int i = 1; i <= QUANTITY_OF_FIGHTERS; i++) {
+            initFighter(i);
+            linkedList.add(fighter);
         }
 
-        ListIterator<Room> listIterator;
+        run();
+    }
 
-        while (true) {
-
-            listIterator = arrayListOfRooms.listIterator();
-            if (r.nextDouble() < PROBABILITY_VISITOR) {
-                while (listIterator.hasNext()) {
-                    room = listIterator.next();
-                    new Visitor(room).start();
+    public static void run() {
+        synchronized (arena) {
+            for (int i = 0; i < linkedList.size(); i++) {
+                if (linkedList.get(i).getEndurance() <= 0) continue;
+                for (int j = 0; j < linkedList.size(); j++) {
+                    if (i == j || linkedList.get(j).getEndurance() <= 0) continue;
+                    try {
+                        arena.wait(500);
+                        arena.wait(500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    arena.battle(linkedList.get(i), linkedList.get(j));
+                    arena.notifyDisplay();
                 }
             }
-
-            listIterator = arrayListOfRooms.listIterator();
-            if (r.nextDouble() < PROBABILITY_DOCTOR) {
-                while (listIterator.hasNext()) {
-                    room = listIterator.next();
-                    new Doctor(room).start();
-                }
-            }
-            Thread.sleep(200);
         }
+    }
+
+    public static void initFighter(int number) {
+        double sumStrengthIntuitionDexterity = 50;
+
+        int strength = random.nextInt(100);
+        int intuition = random.nextInt(100);
+        int dexterity = random.nextInt(100);
+
+        double index = sumStrengthIntuitionDexterity / (strength + intuition + dexterity);
+
+        strength = (int) Math.round(strength * index);
+        intuition = (int) Math.round(intuition * index);
+        dexterity = (int) Math.round(dexterity * index);
+
+        fighter = new Fighter(strength, intuition, dexterity, number, arena);
     }
 }

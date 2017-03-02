@@ -3,20 +3,17 @@ package com.company.main;
 import java.util.Observable;
 import java.util.Observer;
 
-public class Display implements Observer {
+public class Display implements Observer{
 
-    private Room room;
+    private Arena arena;
 
-    public Display(Room room) {
-        this.room = room;
-        room.addObserver(this);
+    public Display(Arena arena) {
+        this.arena = arena;
+        arena.addObserver(this);
     }
 
     @Override
-    public void update(Observable o, Object arg) {
-        synchronized (room) {
-            System.out.println("Room №" + room.getNumber() + ":  Doctors: " + room.getDoctorCount() +
-                    " | Visitors: " + room.getVisitorCount());
-        }
+    public void update(Observable observable, Object o) {
+        System.out.println(arena.getResult());
     }
 }

@@ -1,4 +1,4 @@
-package com.company.main;
+package com.company.main.threads2;
 
 abstract class Human extends Thread {
 
